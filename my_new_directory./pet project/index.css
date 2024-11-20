@@ -1,0 +1,195 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d021e7;
+}
+
+
+header {
+    background-color: hwb(32 11% 5%); 
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: rgb(19, 206, 60);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1100px;
+}
+
+
+#welcome {
+    background-color: #e74c3c; 
+    color: rgb(133, 189, 43);
+}
+
+#welcome h1 {
+    font-size: 2.5rem;
+}
+
+#welcome p {
+    font-size: 1.2rem;
+}
+
+
+#services {
+    background-color: hwb(150 21% 50%); 
+    color: #71eb20;
+}
+
+#services h2 {
+    font-size: 2rem;
+}
+
+#services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#services ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+
+#pets {
+    background-color: hwb(66 2% 7% / 0.89); 
+    color: #1bb8e7;
+}
+
+#pets h2 {
+    font-size: 2rem;
+}
+
+.pet-types {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pet-item {
+    background-color: hsl(0, 7%, 67%);
+    color: #9b59b6; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.pet-item:hover {
+    background-color: #9b59b6;
+    color: white;
+}
+
+
+#supplies {
+    background-color: #3498db; 
+    color: white;
+}
+
+#supplies h2 {
+    font-size: 2rem;
+}
+
+#supplies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#supplies ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+
+#about {
+    background-color: hsl(81, 90%, 51%);
+    color: white;
+}
+
+#about h2 {
+    font-size: 2rem;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+
+#contact {
+    background-color: #2c3e50; 
+    color: white;
+}
+
+#contact h2 {
+    font-size: 2rem;
+}
+
+#contact form {
+    display: grid;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact input,
+#contact textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contact button {
+    background-color: #e74c3c; 
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #c0392b;
+}
+
+
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
